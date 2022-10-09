@@ -6,16 +6,5 @@
       - name: Install
         apt: pkg={{item}} state=installed update_cache=yes
         with_items:
-          - kodi
-          - kaffeine
-          - vlc
-          - rhythmbox
-          - firefox-esr
-          - banshee
-          - libreoffice
-          - geany
-          - gnome-terminal
-          - lxde
-          - libreoffice
-          - libreoffice-voikko
-
+          - nano
+          - vim
