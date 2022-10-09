@@ -1,0 +1,9 @@
+---
+  - name: Tester book
+    hosts: webservers
+    become: false 
+    tasks:
+      - name: Let's create non-sense text file for testing.
+        shell: echo "I am a test file. I hope I will work. I output this text to a home directory's testme.txt" > testme.text 
+
+
