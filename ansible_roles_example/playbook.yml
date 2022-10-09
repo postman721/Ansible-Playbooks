@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: false
+  roles:
+    - hello
+    - bye
+      
+

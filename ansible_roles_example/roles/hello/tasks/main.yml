@@ -1,0 +1,9 @@
+
+- name: Hello World
+  shell:  echo "{{ welcome }}"
+  register: welcome_output
+
+- debug: msg="{{ welcome_output.stdout }}"
+
+
+

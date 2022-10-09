@@ -1,0 +1,10 @@
+
+- name: Bye
+  shell:  echo "{{ bye }}"
+  register: bye_output
+
+- debug: msg="{{ bye_output.stdout }}"
+
+
+
+
